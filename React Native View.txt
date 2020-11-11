@@ -1,0 +1,19 @@
+React Native doesn't have HTML elements like Divs, elements, span, etc.
+
+<View> is one of the most basic similar to Div.
+
+flex, backgroundColor, alignItems, justifyContent, etc.
+
+<SafeAreaView style={styles.container}>
+      <Text>Hello React Native!</Text>
+      <StatusBar style="auto" />
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'dodgerblue',
+  },
+});
