@@ -18,7 +18,7 @@ console.log("App Created!");
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#dodgerblue',
     alignItems: 'center',
     justifyContent: 'center',
   },
